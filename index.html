@@ -10,14 +10,14 @@
     <script src="app.js"></script>
   </head>
 
-  <body ng-controller="homeCtrl">
+  <body ng-controller="mainCtrl">
     <nav class="navbar" style="background-color: #777777">
       <div><a href="#about" style="color:white">about</a></div>
       <div><a href="#contact" style="color:white">contact</a></div>
     </nav>
             
-            <!--<div><h1>{{hello}}</h1></div>-->
-      <div ng-view></div>
+            
+      <div ng-view><div><h1>{{hello}}</h1></div></div>
   </body>
 
 </html>
